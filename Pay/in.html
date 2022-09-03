@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pay Time</title>
+    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="card">
+        <div class="card-top border-bottom text-center"> <a href="index.html"> Back to <span class="top-left">Carvanz</span></a> <span id="logo">Carvanz.com</span> </div>
+        <div class="card-body">
+            <div class="row upper"> <span><i class="fa fa-check-circle-o"></i> Trip Overview </span> <span><i class="fa fa-check-circle-o"></i> Trip details</span> <span id="payment"><span id="three">3</span>Payment</span> </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="left border">
+                        <div class="row"> <span class="header">Payment</span>
+                            <div class="icons"> <img src="https://img.icons8.com/color/48/000000/visa.png" /> <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" /> <img src="https://img.icons8.com/color/48/000000/maestro.png" /> </div>
+                        </div>
+                        <form> <span>Cardholder's name:</span> <input placeholder="Linda Williams"> <span>Card Number:</span> <input placeholder="0125 6780 4567 9909">
+                            <div class="row">
+                                <div class="col-4"><span>Expiry date:</span> <input placeholder="YY/MM"> </div>
+                                <div class="col-4"><span>CVV:</span> <input id="cvv"> </div>
+                            </div> <input type="checkbox" id="save_card" class="align-left"> <label for="save_card">Save card details to wallet</label>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="right border">
+                        <div class="header">Trip Summary</div>
+                        <p>2 items</p>
+                        <div class="row item">
+                            <div class="col-4 align-self-center"><img class="img-fluid" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/81/30/3f/caption.jpg?w=700&h=-1&s=1&cx=1846&cy=1833&chk=v1_6ae0a81ae3361e988707"></div>
+                            <div class="col-8">
+                                <div class="row"><b>$ 126.99</b></div>
+                                <div class="row text-muted">Sentorini,Greece.</div>
+                                <div class="row">Qty:1</div>
+                            </div>
+                        </div>
+                        <div class="row item">
+                            <div class="col-4 align-self-center"><img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/9zHVj4OnM5pYeO8rCX-W4aL-lw0=/0x0:4428x1993/1200x800/filters:focal(1872x1198:2580x1906)/cdn.vox-cdn.com/uploads/chorus_image/image/63371518/shutterstock_785442694.0.jpg"></div>
+                            <div class="col-8">
+                                <div class="row"><b>$ 219.99</b></div>
+                                <div class="row text-muted">Barcelona, Spain.</div>
+                                <div class="row">Qty:1</div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row lower">
+                            <div class="col text-left">Subtotal</div>
+                            <div class="col text-right">$ 346.98</div>
+                        </div>
+                        <!-- <div class="row lower">
+                            <div class="col text-left">Delivery</div>
+                            <div class="col text-right">Free</div>
+                        </div> -->
+                        <div class="row lower">
+                            <div class="col text-left"><b>Total to pay</b></div>
+                            <div class="col text-right"><b>$ 346.98</b></div>
+                        </div>
+                        <div class="row lower">
+                            <div class="col text-left"><a href="#"><u>Add promo code</u></a></div>
+                        </div> <button class="btn">Confirm Booking</button>
+                        <p class="text-muted text-center">Free Cancelation within 48 working hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div> </div>
+    </div>
+
+  </body>
+</html>
